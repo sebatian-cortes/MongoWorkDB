@@ -24,5 +24,74 @@ db.products.insertMany([
     _id: 4,
     name: "Prodcut 4",
     price: 120
+  },
+
+  {
+    _id: 5,
+    name: "mango 1",
+    price: 121
+  },
+
+  {
+    _id: 6,
+    name: "mango 2",
+    price: 122
+  },
+
+
+  {
+    _id: 7,
+    name: "mango 3",
+    price: 123
+  },
+
+
+  {
+    _id: 8,
+    name: "mango 4",
+    price: 124
+  },
+
+
+  {
+    _id: 9,
+    name: "mango 5",
+    price: 125
+  },
+
+
+  {
+    _id: 10,
+    name: "mango 6",
+    price: 126
+  },
+
+
+
+  {
+    _id: 11,
+    name: "mango 7",
+    price: 127
+  },
+
+
+  {
+    _id: 12,
+    name: "mango 8",
+    price: 128
+  },
+
+
+  {
+    _id: 13,
+    name: "mango 9",
+    price: 129
+  },
+
+
+  {
+    _id: 14,
+    name: "mango 10" ,
+    price: 130
   }
 ])

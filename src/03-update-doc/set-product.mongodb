@@ -1,0 +1,85 @@
+// set-product.mongodb
+
+use("pet_store")
+
+db.products.updateMany(
+  // query
+  {_id: 1},
+  {
+    $set: {
+      name: 'Change name',
+      price: 3000,
+    }
+  },
+  {_id: 5},
+  {
+    $set: {
+      name: 'mango 11',
+      price: 221,
+    }
+  },
+
+  {_id: 6},
+  {
+    $set: {
+      name: 'mango 12',
+      price: 222,
+    }
+  },
+  {_id: 7},
+  {
+    $set: {
+      name: 'mango 13',
+      price: 223,
+    }
+  },
+  {_id: 8},
+  {
+    $set: {
+      name: 'mango 14',
+      price: 224,
+    }
+  },
+  {_id: 9},
+  {
+    $set: {
+      name: 'mango 15',
+      price: 225,
+    }
+  },
+  {_id: 10},
+  {
+    $set: {
+      name: 'mango 16',
+      price: 226,
+    }
+  },
+  {_id: 11},
+  {
+    $set: {
+      name: 'mango 17',
+      price: 227,
+    }
+  },
+  {_id: 12},
+  {
+    $set: {
+      name: 'mango 18',
+      price: 228,
+    }
+  },
+  {_id: 13},
+  {
+    $set: {
+      name: 'mango 19',
+      price: 229,
+    }
+  },
+  {_id: 14s},
+  {
+    $set: {
+      name: 'mango 20',
+      price: 230,
+    }
+  },
+)
