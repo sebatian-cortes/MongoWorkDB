@@ -7,91 +7,187 @@ db.products.drop() // elimina los documentos creados en la colleccion anteriorme
 db.products.insertMany([
   {
     _id: 1,
-    name: "Prodcut 1",
-    price: 100
+    title: "Atena",
+    price: 10000,
+    description: "Doberman hembra",
+    category:"Perro",
+    image:"perro.jpg"
   },
   {
     _id: 2,
-    name: "Prodcut 2",
-    price: 20
+    title: "Niña",
+    price: 20000,
+    description: "Gato Siames Hembra" ,
+    category:"Gato",
+    image:"Garo.jpg"
   },
   {
     _id: 3,
-    name: "Prodcut 3",
-    price: 120
+    title: "Donatelo",
+    price: 12000,
+    description:"Tortuga Macho"  ,
+    category:"Reptil",
+    image:"TortugaNinja.jpg"
   },
   {
     _id: 4,
-    name: "Prodcut 4",
-    price: 120
+    title: "Leonardo",
+    price: 12000,
+    description:  "Tortuga Macho",
+    category:"Reptil",
+    image:"TortugaNinja.jpg"
   },
 
   {
     _id: 5,
-    name: "mango 1",
-    price: 121
+    title: "Michelangelo",
+    price: 12100,
+    description:"Tortuga Macho"  ,
+    category:"Reptil",
+    image:"TortugaNinja.jpg"
   },
 
   {
     _id: 6,
-    name: "mango 2",
-    price: 122
+    title: "Rafael",
+    price: 12200,
+    description: "Tortuga Macho" ,
+    category:"Reptil",
+    image:"TortugaNinja.jpg"
   },
 
 
   {
     _id: 7,
-    name: "mango 3",
-    price: 123
+    title: "Splinter",
+    price: 12300,
+    description:"Rata domestica macho"  ,
+    category:"Roedor",
+    image:"Splinter,jpg"
   },
 
 
   {
     _id: 8,
-    name: "mango 4",
-    price: 124
+    title: "Cerbero",
+    price: 12400,
+    description:  "Pitbull Macho",
+    category:"Perro",
+    image:"Pitbull.jpg"
   },
 
 
   {
     _id: 9,
-    name: "mango 5",
-    price: 125
+    title: "Botas",
+    price: 12500,
+    description:  "Gato naranja Macho",
+    category:"Gato",
+    image:"ElGatoConBotas.jpg"
   },
 
 
   {
     _id: 10,
-    name: "mango 6",
-    price: 126
+    title: "Garfield",
+    price: 12600,
+    description:"Gato Anaranjado Macho"  ,
+    category:"Gato",
+    image:"Garfield.jpg"
   },
 
 
 
   {
     _id: 11,
-    name: "mango 7",
-    price: 127
+    title: "Skipper",
+    price: 12700,
+    description: "Pinguino Domestico" ,
+    category:"Ave",
+    image:"Skipper.jpg"
   },
 
 
   {
     _id: 12,
-    name: "mango 8",
-    price: 128
+    title: "Riko",
+    price: 128000,
+    description: "Pinguino Domestico" ,
+    category:"Ave",
+    image:"Riko.jpg"
   },
 
 
   {
     _id: 13,
-    name: "mango 9",
-    price: 129
+    title: "Cabo",
+    price: 129000,
+    description:"Pinguino Domestico" ,
+    category:"Ave",
+    image:"Cabo,jpg"
   },
 
 
   {
     _id: 14,
-    name: "mango 10" ,
-    price: 130
+    title: "Kowalski" ,
+    price: 130,
+    description:  "Pinguino Domestico",
+    category:"Ave",
+    image:"Kowalski.jpg"
+  },
+
+  {
+    _id: 15,
+    title: "Jorge" ,
+    price: 13000,
+    description: "Mono Macho Domestico" ,
+    category:"Primate",
+    image:"JorgeElCurioso.jpg"
+  },
+
+  {
+    _id: 16,
+    title: "Cesar" ,
+    price: 130000,
+    description: "Mono Macho No Tan Domestico" ,
+    category:"Primate",
+    image:"Cesar.jpg"
+  },
+
+  {
+    _id: 17,
+    title: "Pegaso" ,
+    price: 1300000,
+    description:"Caballo Blanco Hembra"  ,
+    category:"Perisodáctilos",
+    image:"Pegaso.jpg"
+  },
+
+  {
+    _id: 18,
+    title: "Willy" ,
+    price: 130000,
+    description: "Delfin entreado macho" ,
+    category:"Marinos",
+    image:"SalvemosAWilly.jpg"
+  },
+
+  {
+    _id: 19,
+    title: "Blue" ,
+    price: 1300000,
+    description: "Velociraptor color verde tirando A Azul alpha de la manada hembra" ,
+    category:"Dinosaurio",
+    image:"Blue.jpg"
+  },
+
+  {
+    _id: 20,
+    title: "Peter Parker" ,
+    price: 1300000,
+    description:  "Tarantula Macho Domestica",
+    category:"Insectos",
+    image:"Spiderman.jpg"
   }
 ])
