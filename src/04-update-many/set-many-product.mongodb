@@ -1,0 +1,17 @@
+use("pet_store")
+db.products.updateMany(
+    {category:"Salud"},
+    {
+        $set:{
+            inventary:"si existe",
+            quality:"buena"
+        }
+    },
+    {category:"Premios"},
+    {
+        $set:{
+            inventary:"Existen pocos productos",
+            quality:"Excelente"
+        }
+    }
+)

@@ -1,0 +1,18 @@
+use("pet_store")
+// db.products.updateMany(
+//     {category:"Salud"},
+//     {
+//         $set:{
+//             inventary:"no existe",
+//             quality:"baja calidad"
+//         }
+//     },
+//  )
+db.products.updateMany(
+    {category:"Salud"},
+    {
+        $$rename:{
+            desciption:specification,
+        }
+    },
+ )
